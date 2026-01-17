@@ -1,0 +1,12 @@
+Step 1 — Push your site to GitHub
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+
+echo. > .gitignore
+
+gh repo create web_for_publish --public --source=. --push
+git remote add origin https://github.com/username/traffic-sim.git
+git push -u origin main
+
