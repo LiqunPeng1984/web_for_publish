@@ -10,3 +10,16 @@ gh repo create web_for_publish --public --source=. --push
 git remote add origin https://github.com/username/traffic-sim.git
 git push -u origin main
 
+Step 2 — Enable GitHub Pages
+On GitHub:
+    Open your repo
+    Go to Settings → Pages
+    Under Source, choose:
+    Branch: main
+    Folder: /root
+    Click Save
+
+Step 3 — Access your website
+Custom domains allow you to serve your site from a domain other than liqunpeng1984.github.io. 
+
+Open it in browser though https://liqunpeng1984.github.io/web_for_publish/
